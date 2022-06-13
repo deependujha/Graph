@@ -1,6 +1,11 @@
 {
   "files.associations": {
     "*.html": "html",
-    "list": "cpp"
+    "list": "cpp",
+    "queue": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp"
   }
 }
