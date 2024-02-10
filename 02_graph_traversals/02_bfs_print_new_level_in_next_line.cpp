@@ -38,7 +38,9 @@ public:
 
     void bfsTraversal()
     {
-        bool visited[V] = {false};
+        bool visited[V];
+        for (int i = 0; i < V; i++)
+            visited[i] = false;
         for (int i = 0; i < V; i++)
         { // we are running loop to take care for disconnected components
             if (visited[i] == false)
